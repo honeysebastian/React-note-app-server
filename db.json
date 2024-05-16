@@ -1,3 +1,16 @@
 {
-    "allNotes":[]
+  "allNotes": [
+    {
+      "id": "dc3f",
+      "notes": "Hello Honey"
+    },
+    {
+      "notes": "My birthday is in June",
+      "id": "13d4"
+    },
+    {
+      "notes": "Meeting @10 AM",
+      "id": "2240"
+    }
+  ]
 }

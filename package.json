@@ -4,12 +4,12 @@
   "description": "----------------------------------------\r                 JSON SERVER\r         ----------------------------------------\r         1. Create a folder to hold json file\r         2. Create package.json file inside the folder : npm init -y\r         3. Create db.json file inside the folder and resources as key to the json file\r         4. To run json file install json-server : npm i json-server / npm i json-server@0.17.4\r         5. To run json file in localhost use : npx json-server db.json / node index.js\r         -------------------------------------------------\r               Deploying A  JSON FILE  using NODE JS\r         -------------------------------------------------\r         1. Create index.js file server folder\r         2. update script in package.json file as \"start\":\"node index.js\"\r         3. create .gitignore file and add 'node_modules' folder\r         4. Define json-server to run json file in index.js\r             - import json-server\r             - create server run json file using create() method of jsonServer\r             - create middleware used by JSON Server.\r             - set up route for json file in server\r             - use middleware, route in server app\r             - listen the app in given port to resolve client request\r         5. To run the app, use 'node index.js'",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "json-server": "^1.0.0-beta.0"
+    "json-server": "^0.17.4"
   }
 }
